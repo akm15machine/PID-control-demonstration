@@ -6,6 +6,8 @@ The objective is to keep a constant voltage across a capacitor very accurately o
 
 ## Schematic
 ![image](https://user-images.githubusercontent.com/55695557/126066228-95360d02-edce-488d-a9a1-c3aaf9a5c78d.png)
+![PID control demo](https://user-images.githubusercontent.com/55695557/126080031-d82406d6-48a3-4992-bd8d-71abfd3f318a.png)
+
 
 ## Description
 * Charging Network
@@ -23,3 +25,6 @@ The objective is to keep a constant voltage across a capacitor very accurately o
 
 ## Flowchart
 ![image](https://user-images.githubusercontent.com/55695557/126067572-d879d8c7-7733-43a8-8fa0-3b3ef537fe61.png)
+
+## Conclusion
+This was just a simple demonstration of PID control system. However, it is possible to implement the same concept directly to a temperature controlled heating system directly, where the temperature can be adjusted by changing the value of `setPoint` in the [code](PID_Control_Code/PID_Control_Code.ino) (definition at line 5).

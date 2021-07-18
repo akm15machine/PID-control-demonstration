@@ -27,4 +27,4 @@ The objective is to keep a constant voltage across a capacitor very accurately o
 ![image](https://user-images.githubusercontent.com/55695557/126067572-d879d8c7-7733-43a8-8fa0-3b3ef537fe61.png)
 
 ## Conclusion
-This was just a simple demonstration of PID control system. However, it is possible to implement the same concept directly to a temperature controlled heating system directly, where the temperature can be adjusted by changing the value of `setPoint` in the [code](PID_Control_Code/PID_Control_Code.ino) (definition at line 5).
+This was just a simple demonstration of PID control system. However, it is possible to implement the same concept directly to set the temperature of a controlled heating system very accurately, where the temperature can be adjusted by changing the value of `setPoint` in the [code](PID_Control_Code/PID_Control_Code.ino) (definition at line 5).

@@ -65,8 +65,8 @@ void loop() {
   //debug scheduler (every 100ms)
   if(millis() - lastPoll >= 100)
   {
-    double calculateVoltage = map_d(measuredVoltage, 0, 255, 0.0, 5.0);
-    Serial.println(measuredVoltage);
+    double calculatedVoltage = map_d(measuredVoltage, 0, 255, 0.0, 5.0);
+    Serial.println(calculatedVoltage);
     lastPoll = millis();
   }
 }
